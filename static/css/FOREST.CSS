@@ -1,0 +1,274 @@
+/* section navbar */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar-container::before {
+  content: "";
+  background: black;
+  opacity: 0.4;
+  position: absolute;
+  height: 101vh;
+  width: 100%;
+  z-index: -1;
+}
+
+#nav-left-side ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#nav-left-side {
+  width: 10px;
+  position: absolute;
+  right: 161px;
+  top: 18px;
+}
+
+#nav-left-side ul {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#nav-left-side ul li button {
+  background: url(../Image/search.png) no-repeat center center/cover;
+  width: 59px;
+  height: 57px;
+  background-size: 39px;
+  border: 10px solid white;
+  border-radius: 36px;
+  margin-top: 8px;
+}
+
+#nav-left-side ul a {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  text-decoration: none;
+  margin: 10px 19px;
+  color: white;
+  padding: 10px;
+}
+
+#logo-container a:hover {
+  background: white;
+  color: black;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+#nav-left-side a:hover {
+  background: white;
+  color: black;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+#navbar-container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+    justify-content: center; */
+  height: 0px;
+}
+
+/* logo and img */
+#logo-container ul a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+#logo-container ul {
+  display: flex;
+}
+
+#logo-container ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#logo-container {
+  display: flex;
+  width: 486px;
+  height: 111px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+#logo-container img {
+  width: 86px;
+  height: 85px;
+}
+
+/* section-home */
+#scroll-down-text {
+  height: 525px;
+  width: 125px;
+  position: relative;
+  bottom: -75px;
+  left: -20px;
+}
+
+#home-container::before {
+  content: "";
+  background: url("../Image/home.jpg") no-repeat center center/cover;
+  opacity: 0.89;
+  position: absolute;
+  height: 101vh;
+  width: 100%;
+  z-index: -2;
+}
+
+#home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  height: 101vh;
+}
+
+#first-half {
+  display: flex;
+  flex-direction: row;
+  height: 478px;
+  /* align-content: center; */
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  top: -88px;
+}
+
+#scroll-down-text #rotate {
+  transform: rotate(270deg);
+  position: absolute;
+  bottom: 173px;
+  left: -42px;
+  color: white;
+  font-size: 18px;
+  width: 241px;
+}
+
+#middle-text-area {
+  display: flex;
+  flex-direction: column;
+}
+
+#para1 p {
+  font-size: 7rem;
+  color: white;
+  font-weight: bold;
+}
+
+#para2 {
+  height: 74px;
+  width: 295px;
+}
+
+#para2 p {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.bottom-text .p2 {
+  color: white;
+}
+
+#bottom-text-area {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: -21px;
+}
+
+.bottom-text p {
+  width: 300px;
+
+  color: white;
+}
+
+.bottom-text .p1 {
+  font-weight: 900;
+}
+
+#second-half {
+  display: flex;
+  width: 380px;
+  height: 556px;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+  align-items: center;
+}
+
+#second-half #p1 {
+  color: white;
+  margin: -57px -12px 91px 1px;
+  text-align: left;
+  width: 265px;
+}
+
+#second-half #underpara1 {
+  color: white;
+  font-weight: bolder;
+  text-align: left;
+  width: 265px;
+  margin: -57px -12px 91px 1px;
+}
+
+#second-half #underpara2 {
+  color: white;
+  text-align: left;
+  width: 265px;
+  margin: -91px 0px 104px 1px;
+}
+
+#second-half #udp1 {
+  color: white;
+  font-weight: bolder;
+  text-align: left;
+  width: 265px;
+  margin: -57px -12px 91px 1px;
+}
+
+#second-half #udp2 {
+  color: white;
+  text-align: left;
+  width: 265px;
+  margin: -93px -12px -28px 1px;
+}
+
+#second-half img {
+  width: 263px;
+  height: 140px;
+  border-radius: 5px;
+  margin: -57px -12px 91px 1px;
+}
+
+#second-half #bottom {
+  position: relative;
+  bottom: -11px;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  background: black;
+  color: white;
+  height: 24px;
+}
