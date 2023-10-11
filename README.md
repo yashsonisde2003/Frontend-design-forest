@@ -76,6 +76,6 @@ We welcome contributions from the open-source community to make Forest Explorer 
 Have questions or suggestions? Feel free to reach out:
 
 - Email: yashrajsoni.sde2003@gmail.com
-- Linkedin: [Linkedin Profile](https://www.linkedin.com/in/yash-soni-1379b5216)
+- Linkedin: https://www.linkedin.com/in/yash-soni-1379b5216
 
 Explore the forests and let nature inspire you. Happy forest exploring with Forest Explorer! 🌲🌿🌳
