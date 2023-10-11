@@ -2,7 +2,7 @@
 
 Explore the beauty of the forest with our Forest Explorer website! This project is dedicated to showcasing the awe-inspiring wonders of the forest and providing information about the best places to visit. Whether you're a nature enthusiast, an adventurer, or simply looking for a peaceful escape, Forest Explorer has got you covered.
 
-![frost-design]()
+![frost-design](https://github.com/yashsonisde2003/Frontend-design-forest/blob/main/static/Image/demo.png)
 
 ## Technologies Used
 
@@ -76,6 +76,6 @@ We welcome contributions from the open-source community to make Forest Explorer 
 Have questions or suggestions? Feel free to reach out:
 
 - Email: [youremail@example.com](yashrajsoni.sde2003@gmail.com)
-- Linkedin: [Your Linkedin Profile](https://www.linkedin.com/in/yash-soni-1379b5216)
+- Linkedin: [Linkedin Profile](https://www.linkedin.com/in/yash-soni-1379b5216)
 
 Explore the forests and let nature inspire you. Happy forest exploring with Forest Explorer! 🌲🌿🌳
